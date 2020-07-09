@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation>Calculate Shipping Costs</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Prepare Shipment">e2daed4b1bf19810daab54242a4bcb66</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Calculate projected shipping costs given key variables.  </description>
+        <ih_action>false</ih_action>
+        <internal_name>calculate_cost</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot>8d0ba18b1bf19810daab54242a4bcbff</latest_snapshot>
+        <master_snapshot>890be18b1bf19810daab54242a4bcb0f</master_snapshot>
+        <name>Calculate Cost</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 22:28:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>39fa618b1bf19810daab54242a4bcb1e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Calculate Cost</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="USPS" source="x_snc_usps_1">c56ae54b1bf19810daab54242a4bcb7e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="USPS">c56ae54b1bf19810daab54242a4bcb7e</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_39fa618b1bf19810daab54242a4bcb1e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 22:28:49</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=39fa618b1bf19810daab54242a4bcb1e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=39fa618b1bf19810daab54242a4bcb1e"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=39fa618b1bf19810daab54242a4bcb1e^sys_idNOT IN150be18b1bf19810daab54242a4bcb1d"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Calculate Cost">39fa618b1bf19810daab54242a4bcb1e</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"150be18b1bf19810daab54242a4bcb1d","name":"plan"}}</plan>
+        <snapshot>8d0ba18b1bf19810daab54242a4bcbff</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 22:28:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>150be18b1bf19810daab54242a4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 22:28:49</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation>Calculate Shipping Costs</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Prepare Shipment">e2daed4b1bf19810daab54242a4bcb66</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Calculate projected shipping costs given key variables.  </description>
+        <internal_name>calculate_cost</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>Calculate Cost</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Calculate Cost">39fa618b1bf19810daab54242a4bcb1e</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 22:28:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>890be18b1bf19810daab54242a4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="USPS">c56ae54b1bf19810daab54242a4bcb7e</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 22:28:49</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=890be18b1bf19810daab54242a4bcb0f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=890be18b1bf19810daab54242a4bcb0f"/>
+</record_update>
